@@ -253,7 +253,6 @@
    * Submit contact form
    */
   
-  <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbwUmA9OeHscUggntQKSERKuLO6V5Hc9X58wV8IMhLi-LCQXmdnKjnwyWJNJBMFI1GXj/exec'
   const form = document.forms['contact-form']
 
@@ -269,7 +268,6 @@
       .catch(error => console.error('Error!', error.message))
     form.reset()
   })
-</script>
   
 
 })()
