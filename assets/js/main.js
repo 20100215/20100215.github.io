@@ -135,7 +135,7 @@
         scrollto(window.location.hash)
       }
     }
-  });
+  }); 
 
   /**
    * Skills animation
