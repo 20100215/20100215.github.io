@@ -260,7 +260,12 @@
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
+      .then(response => 
+           select('.sent-message').classList.add('d-block')
+            setTimeout(function(){
+                select('.sent-message').classList.remove('d-block')
+            },5000)
+           )
       .catch(error => console.error('Error!', error.message))
   })
 </script>
