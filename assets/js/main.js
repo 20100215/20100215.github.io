@@ -267,6 +267,7 @@
             },5000)
            )
       .catch(error => console.error('Error!', error.message))
+    form.reset()
   })
 </script>
   
