@@ -248,5 +248,22 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+  
+  /**
+   * Submit contact form
+   */
+  
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwUmA9OeHscUggntQKSERKuLO6V5Hc9X58wV8IMhLi-LCQXmdnKjnwyWJNJBMFI1GXj/exec'
+  const form = document.forms['contact-form']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  
 
 })()
