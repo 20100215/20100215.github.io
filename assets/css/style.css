@@ -141,15 +141,28 @@ h6 {
   background: #18d26e;
 }
 
+#header .social-links .download-cv{
+  margin-top: 20px;
+  display: flex;
+}
+
 @media (max-width: 768px) {
   .name {
     padding: 17px;
+  }
+  #header .social-links .download-cv{
+    margin: 20px auto 0 auto;
+    display: flex;
   }
 }
 
 @media (min-width: 768.01px) and (max-width: 992px) {
   .name {
     padding: 22px;
+  }
+  #header .social-links .download-cv{
+    margin: 20px auto 0 auto;
+    display: flex;
   }
 }
 
