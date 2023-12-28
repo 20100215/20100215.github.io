@@ -945,6 +945,23 @@ section .container {
   color: #63eda3;
 }
 
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  margin: 0 2px;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  color: #63eda3;
+}
+
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
