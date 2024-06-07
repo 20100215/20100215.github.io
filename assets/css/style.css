@@ -1275,3 +1275,9 @@ section .container {
 .swiper-slide img {
   max-width: -webkit-fill-available;
 }
+
+.list-item {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+}
