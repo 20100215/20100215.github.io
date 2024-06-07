@@ -1277,7 +1277,7 @@ section .container {
 }
 
 .list-item {
-    display: list-item;
-    list-style-type: disc;
-    margin-left: 20px;
+    display: list-item !important;
+    list-style-type: disc !important;
+    margin-left: 20px !important;
 }
